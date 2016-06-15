@@ -11,7 +11,7 @@ nav {
 a, a:visited, a:active {
   text-decoration: none;
   color: white;
-  padding: 10px;
+  padding: 0.5px;
 }
 
 
@@ -20,7 +20,6 @@ a, a:visited, a:active {
   border: solid 1px #006064;
   background: #006064;
   overflow: auto;
-  border-radius: 5px;
 }
 
 .nav-list {
@@ -33,7 +32,7 @@ a, a:visited, a:active {
   margin: 0.5rem 0.5rem;
   text-transform: uppercase;
   background: gray;
-  padding: 10px;
+  padding: 0.5rem;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -41,6 +40,8 @@ a, a:visited, a:active {
 .nav-list_item--brand {
   flex: 1;
   text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
 }
 
 .nav-list_item:hover {
@@ -49,7 +50,7 @@ a, a:visited, a:active {
 
 .body-img {
   display: inline-block;
-  margin: 10px 0 10px 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .row {
@@ -97,10 +98,10 @@ img {
   float: right;
   flex: 1;
   display: inline;
-  padding: 10px;
+  padding: 1rem;
   background: blue;
   border-radius: 5px;
-  margin: 5px;
+  margin: 0.3rem;
   color: white;
 }
 
@@ -116,9 +117,9 @@ img {
   float: left;
   flex: 1;
   display: inline;
-  padding: 10px;
+  padding: 1rem;
   background: red;
-  border-radius: 5px;
-  margin: 5px;
+  border-radius: 0.3rem;
+  margin: 0.3rem;
   color: white;
 }
