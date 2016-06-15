@@ -11,7 +11,11 @@ nav {
 a, a:visited, a:active {
   text-decoration: none;
   color: white;
-  padding: 0.5px;
+  padding: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
 }
 
 
@@ -84,8 +88,8 @@ img {
 }
 
 .card-heading-underline {
-  color: #006064;
-  width: 80%;
+  color: black;
+  width: 95%;
   font-weight: bold;
 }
 
@@ -98,10 +102,10 @@ img {
   float: right;
   flex: 1;
   display: inline;
-  padding: 1rem;
+  padding: 0.5rem;
   background: blue;
   border-radius: 5px;
-  margin: 0.3rem;
+  margin: 0.5rem;
   color: white;
 }
 
@@ -117,9 +121,9 @@ img {
   float: left;
   flex: 1;
   display: inline;
-  padding: 1rem;
+  padding: 0.5rem;
   background: red;
   border-radius: 0.3rem;
-  margin: 0.3rem;
+  margin: 0.5rem;
   color: white;
 }
