@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 nav {
@@ -7,8 +8,14 @@ nav {
   text-decoration: none;
 }
 
+a, a:visited {
+  text-decoration: none;
+}
+
+
 .top-nav p {
   display: inline-block;
+
 }
 
 .top-nav {
@@ -23,7 +30,7 @@ nav {
   list-style: none;
   display: flex;
   padding: ;
-  float: right;
+  color: navy;
 }
 
 .nav-list_item {
@@ -35,28 +42,81 @@ nav {
   text-decoration: none;
 }
 
+.nav-list_item--brand {
+  flex: 1;
+}
+
 .nav-list_item:hover {
   background: lightgrey;
 }
 
 .body-img {
   display: inline-block;
-  height: 300px;
-  width: 300px;
   margin: 10px 0 10px 0;
 }
 
 .row {
   border: 10px solid #006064;
   border-radius: 5px;
+  margin: auto;
+  overflow: auto;
 }
 
 .column {
   display: inline-block;
+  width: 32%;
+  margin: 0;
+  border: 3px solid pink;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px #888888;
 }
 
 img {
-  padding: 5px;
-  border: 3px solid pink;
   border-radius: 5px;
+  width: 100%;
+}
+
+.card-text-content {
+  text-align: center;
+  display: inline-block;
+}
+
+.card-heading {
+  color: navy;
+  text-align: center;
+}
+
+.card-heading-underline {
+  color: #006064;
+  width: 80%;
+  font-weight: bold;
+}
+
+.somethinggood {
+  margin: auto;
+  width: 90%;
+}
+
+.submit {
+  float: right;
+  flex: 1;
+  display: inline;
+  padding: 10px;
+  background: blue;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+}
+
+.cancel {
+  float: left;
+  flex: 1;
+  display: inline;
+  padding: 10px;
+  background: red;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
 }
