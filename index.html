@@ -3,21 +3,41 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Box Model</title>
   </head>
   <body>
     <nav class="top-nav">
       <ul class="nav-list">
-        <li class="nav-list_home"><a href="#">Welcome</a></li>
+        <p>Home</p>
         <li class="nav-list_item"><a href="#">Click this</a></li>
         <li class="nav-list_item"><a href="#">Or this</a></li>
         <li class="nav-list_item"><a href="#">why not this</a></li>
       </ul>
     </nav>
-    <p>This is my sample text.</p>
-    <img class="body-img" src="https://octodex.github.com/images/carlostocat.gif" alt="">
-    <img class="body-img" src="https://octodex.github.com/images/heisencat.png" alt="">
-    <img class="body-img" src="https://octodex.github.com/images/octobiwan.jpg" alt="">
+
+    <div>
+      <p>This is some sample paragraph text.</p>
+    </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="body-img" src="https://octodex.github.com/images/carlostocat.gif" alt="">
+          <h3>Card One</h3>
+          <p>This is the text underneath the heading.</p>
+        </div>
+        <div class="column">
+          <img class="body-img" src="https://octodex.github.com/images/heisencat.png" alt="">
+          <h3>Card Two</h3>
+          <p>This is the text underneath the heading.</p>
+        </div>
+        <div class="column">
+          <img class="body-img" src="https://octodex.github.com/images/octobiwan.jpg" alt="">
+          <h3>Card Three</h3>
+          <p>This is the text underneath the heading.</p>
+        </div>
+
+      </div>
+
 
   </body>
 </html>
