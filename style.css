@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0rem;
+}
+
+nav {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
+.top-nav {
+  width: 100%;
+  border: solid 1px #006064;
+  background: #006064;
+  overflow: auto;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list_item {
+  margin: 0.5rem 0.5rem;
+  text-transform: uppercase;
+  background: gray;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.nav-list_item--brand {
+  flex: 1;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0.5rem;
+}
+
+.nav-list_item:hover {
+  background: lightgrey;
+}
+
+.body-img {
+  margin: 1rem 0 1rem 0;
+}
+
+.row {
+  margin: auto;
+  overflow: auto;
+}
+
+.column {
+  width: calc(100% / 3 - 1rem - 1rem);
+  margin: 1rem;
+  min-width: 15rem;
+  text-align: center;
+  border: 3px solid pink;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px #888888;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
+
+.card-text-content {
+  text-align: center;
+  display: block;
+}
+
+.card-heading {
+  color: navy;
+  text-align: center;
+}
+
+.card-heading-underline {
+  color: black;
+  width: 95%;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.somethinggood {
+  margin: auto;
+  width: 90%;
+}
+
+.submit {
+  float: right;
+  flex: 1;
+  display: inline;
+  padding: 0.5rem;
+  background: blue;
+  border-radius: 5px;
+  margin: 0.5rem;
+  color: white;
+}
+
+.submit:hover {
+  background: lightgrey;
+}
+
+.cancel:hover {
+  background: lightgrey;
+}
+
+.cancel {
+  float: left;
+  padding: 0.5rem;
+  background: red;
+  border-radius: 0.3em;
+  margin: 0.5rem;
+  color: white;
+}
